@@ -4,6 +4,7 @@ published: 2026-06-12
 tags: [Markdown, AI, CC Switch]
 category: Install
 draft: false
+description: 尝试安装CC Switch 链接本地或云端大模型
 ---
 ## 1.下载
 

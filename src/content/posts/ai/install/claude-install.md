@@ -4,6 +4,7 @@ published: 2026-06-12
 tags: [Markdown, AI, Claude Code]
 category: Install
 draft: false
+description: 尝试安装Claude Code 进行vibe coding
 ---
 
 ## 前置要求
