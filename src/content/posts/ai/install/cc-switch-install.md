@@ -52,26 +52,26 @@ draft: false
 
 #### 3.3.1 验证配置是否成功
 
-1. win+r 输入``cmd`` 回车
+1. ``win+r`` 输入``cmd`` 回车
 2. 在终端内输入``claude``回车
 3. 启动后输入一个简单的问题测试,例如："5月1日是什么节日"
 4. 如果Claude Code 能够正常回复,说明配置成功！
 5. 实用技巧1：不想一直确认权限可以：
 
-    ``
+    ```ps
     claude --dangerously-skip-permissions
-    ``
+    ```
 
     或者在配置json中添加
     
-    ``
-    "skipDangerousModePermissionPrompt": true,"
-    ``
+    ```json
+    "skipDangerousModePermissionPrompt": true,
+    ```
 #### 4.异常问题处理
 1. 访问异常：配置json中添加
     
-    ``
-    "skipWebFetchPreflight": true,"
-    ``
+    ```json
+    "skipWebFetchPreflight": true,
+    ```
 
     >[!IMPORTANT]因为Claude Code在访问网页前会调用 Anthropic 的服务来判断网页是否可以访问,这里直接给他权限读取全部的域名访问,就没有限制了
