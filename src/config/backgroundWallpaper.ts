@@ -70,17 +70,19 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "zhimaxu's dev log",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"愿君千万岁，无岁不逢春",
+				"‌从今把定春风笑，且作人间长寿",
+				"寿远眉毫秀，身康鬓雪稀",
+				"‌年年约，常相见。但无事，身强健‌",
+				"如南山之寿，不骞不崩",
+				"‌海阔凭鱼跃，天高任鸟飞",
+				"令公桃李满天下，何用堂前更种花‌",
+				"愿得一心人，白头不相离",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",

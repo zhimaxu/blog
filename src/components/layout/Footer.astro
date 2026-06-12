@@ -19,7 +19,7 @@ if (footerConfig.enable) {
 		customFooterHtml = fs.readFileSync(footerConfigPath, "utf-8");
 		// 移除HTML注释
 		customFooterHtml = customFooterHtml.replace(/<!--[\s\S]*?-->/g, "").trim();
-	} catch (error) {
+	} catch (error: any) {
 		console.warn("FooterConfig.html文件读取失败:", error.message);
 	}
 }
@@ -63,6 +63,11 @@ if (footerConfig.enable) {
         class="transition link text-(--primary) font-medium"
         target="_blank"
         href="https://github.com/CuteLeaf/Firefly">Firefly</a
+      > &
+      <a
+        class="transition link text-(--primary) font-medium"
+        target="_blank"
+        href="https://github.com/zhimaxu/blog">Zhimaxu</a
       >
     </div>
     <!-- 
