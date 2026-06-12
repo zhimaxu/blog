@@ -32,5 +32,10 @@
   "src:content/base-example/images/both-list.avif": "e5e7e4e6e8e7e3e3e5",
   "src:content/base-example/images/both-grid.avif": "d5d6d3e6e7e3d8d9e3",
   "src:content/base-example/images/1.avif": "c0babec4bfc3e0e0de",
-  "src:content/base-example/guide/cover.avif": "c8bca9dde6d2babfb5"
+  "src:content/base-example/guide/cover.avif": "c8bca9dde6d2babfb5",
+  "public:assets/images/ai/install/cc-switch-step-5.png": "f0f5f9f9fbfdf9fbfc",
+  "public:assets/images/ai/install/cc-switch-step-4.png": "faf8f6fffefcf9fbfd",
+  "public:assets/images/ai/install/cc-switch-step-3.png": "fcfcfcfefefef9fcfe",
+  "public:assets/images/ai/install/cc-switch-step-2.png": "f8f8f9fffffef7fafc",
+  "public:assets/images/ai/install/cc-switch-step-1.png": "fbfbfcfefffff9fbfb"
 }
