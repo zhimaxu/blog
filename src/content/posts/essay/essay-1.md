@@ -1,10 +1,12 @@
 ---
 title: 随笔-1
-published: 2026-06-15
+published: 2026-06-14
+updated: 2026-06-15
 tags: [Essay,Tools,EdgeOne,CI/CD]
 category: Essay
 draft: false 
-description: EdgeOne 的尝试和顺便整理下Edge的书签
+description: EdgeOne 的尝试,顺便整理下Edge的书签,主站创建
+version: 1.0.3
 ---
 
 # EdgeOne CI/CD
@@ -16,8 +18,12 @@ description: EdgeOne 的尝试和顺便整理下Edge的书签
 
 
 # EdgeOne 边缘加速
-1. 主站进行加速()
->[!tip] 目前有个怪问题,加速后网站打不开了,正在研究
+1. Claude Code 修改agens ai 生图技能
+2. 利用生图和编程技能创建主站
+3. 创建[test](https://test.19930618.xyz/)极简网站测试边缘加速(双SSL证书,加速侧强制https,服务器端let's Entry 自动续签同强制https)
+4. 测试成功,上传并启动[主站](https://www.19930618.xyz/)加速
+
+>[!tip] 暂时加速成功了没出现异常
 
 # 书签整理
 1. 娱乐
