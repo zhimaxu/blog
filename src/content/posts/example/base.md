@@ -1,8 +1,8 @@
 ---
-title: Demo
+title: 基础样例
 published: 2026-06-12
-tags: [Markdown, Blog, Demo]
-category: 文章示例
+tags: [Markdown, Demo]
+category: example
 draft: false 
 description: 文章描述
 ---
