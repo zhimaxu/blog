@@ -86,6 +86,7 @@ enum I18nKey {
 	guestbook = "guestbook",
 	guestbookDescription = "guestbookDescription",
 	bangumi = "bangumi",
+	version = "version",
 
 	// 番组计划筛选和状态文本
 	bangumiTitle = "bangumiTitle",

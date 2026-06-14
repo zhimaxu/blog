@@ -11,35 +11,37 @@ import { getApiUrlList, processCoverImageSync } from "@/utils/image-utils";
 import { getFileDirFromPath, getTagUrl } from "@/utils/url-utils";
 
 interface Props {
-	class?: string;
-	entry: CollectionEntry<"posts">;
-	title: string;
-	url: string;
-	published: Date;
-	updated?: Date;
-	tags: string[];
-	category: string | null;
-	image: string;
-	description: string;
-	draft: boolean;
-	pinned?: boolean;
-	password?: boolean;
-	style: string;
-	loading?: "lazy" | "eager";
+  class?: string;
+  entry: CollectionEntry<"posts">;
+  title: string;
+  url: string;
+  published: Date;
+  updated?: Date;
+  tags: string[];
+  category: string | null;
+  image: string;
+  description: string;
+  draft: boolean;
+  pinned?: boolean;
+  password?: boolean;
+  version: string;
+  style: string;
+  loading?: "lazy" | "eager";
 }
 const {
-	entry,
-	title,
-	url,
-	published,
-	tags,
-	category,
-	image,
-	description,
-	pinned,
-	password,
-	style,
-	loading = "lazy",
+  entry,
+  title,
+  url,
+  published,
+  tags,
+  category,
+  image,
+  description,
+  pinned,
+  password,
+  version,
+  style,
+  loading = "lazy",
 } = Astro.props;
 const className = Astro.props.class;
 
@@ -47,16 +49,16 @@ const className = Astro.props.class;
 const processedImage = processCoverImageSync(image, entry.id);
 const apiUrls = getApiUrlList(image, entry.id);
 const hasCover =
-	processedImage !== undefined &&
-	processedImage !== null &&
-	processedImage !== "";
+  processedImage !== undefined &&
+  processedImage !== null &&
+  processedImage !== "";
 
 const coverWidth = "30%";
 
 const showTags = siteConfig.postListLayout.showTags;
 const descriptionLines = Math.max(
-	0,
-	Math.trunc(siteConfig.postListLayout.descriptionLines ?? 2),
+  0,
+  Math.trunc(siteConfig.postListLayout.descriptionLines ?? 2),
 );
 const descriptionClampLines = String(descriptionLines);
 const shouldClampDescription = descriptionLines > 0;
@@ -112,6 +114,7 @@ const descriptionText = description || remarkPluginFrontmatter.excerpt || "";
       tags={tags}
       showTags={false}
       category={category || undefined}
+      version={version}
       pinned={pinned}
       password={password}
       className="mb-4 post-meta"
