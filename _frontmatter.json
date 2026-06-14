@@ -60,6 +60,11 @@
           "title": "language",
           "name": "language",
           "type": "string"
+        },
+        {
+          "title": "version",
+          "name": "version",
+          "type": "string"
         }
       ]
     }
