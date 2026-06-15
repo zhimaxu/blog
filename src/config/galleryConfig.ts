@@ -33,6 +33,13 @@ export const galleryConfig: GalleryConfig = {
 			tags: ["加密相册", "示例"],
 			password: "123456",
 			passwordHint: "示例密码123456",
+		},{
+			id: "prd-1-product-prototype",
+			name: "PRD1-原型图",
+			description: "智能客服原型图，agens ai 生成，有些许不对劲仍需修改。",
+			location: "崩坏：星穹铁道",
+			date: "2026-01-01",
+			tags: ["Product Prototype"],
 		},
 	],
 
