@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" font-family="'PingFang SC', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="520" rx="12" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="860" height="50" rx="12" fill="url(#grad1)"/>
+  <text x="430" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="white">智能客服 · 核心用户旅程</text>
+
+  <!-- Timeline header -->
+  <text x="430" y="82" text-anchor="middle" font-size="12" fill="#64748b">从发现问题到问题解决的全流程，包含异常路径处理</text>
+
+  <!-- Row 1: Happy Path -->
+  <g transform="translate(40, 100)">
+    <text x="0" y="18" font-size="12" font-weight="bold" fill="#4f46e5">Happy Path</text>
+
+    <!-- Step 1 -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">用户访问</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">网站/小程序/App</text>
+    </g>
+    <text x="130" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <!-- Step 2 -->
+    <g transform="translate(150, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">发送消息</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">文本/图片/视频</text>
+    </g>
+    <text x="280" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <!-- Step 3 -->
+    <g transform="translate(300, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">AI 自动回复</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">知识库检索 + LLM</text>
+    </g>
+    <text x="430" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <!-- Step 4 -->
+    <g transform="translate(450, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">用户评价</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">5 星好评 / 留言</text>
+    </g>
+    <text x="580" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <!-- Step 5 -->
+    <g transform="translate(600, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#10b981" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="white">✅ 问题解决</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#ecfdf5">对话结束</text>
+    </g>
+  </g>
+
+  <!-- Row 2: Exception Path - AI cannot answer -->
+  <g transform="translate(40, 190)">
+    <text x="0" y="18" font-size="12" font-weight="bold" fill="#d97706">AI 无法回答 → 转人工</text>
+
+    <!-- Steps 1-3 reused position -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">AI 无法回答</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">置信度 &lt; 0.3</text>
+    </g>
+    <text x="130" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <g transform="translate(150, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">建议转人工</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">AI 主动建议</text>
+    </g>
+    <text x="280" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <g transform="translate(300, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">客服接入</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">WebSocket 推送</text>
+    </g>
+    <text x="430" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <g transform="translate(450, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">人工回复</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">快捷回复 / 工单</text>
+    </g>
+    <text x="580" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <g transform="translate(600, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#10b981" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="white">✅ 问题解决</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#ecfdf5">会话结束</text>
+    </g>
+  </g>
+
+  <!-- Row 3: Complex Issue → Ticket -->
+  <g transform="translate(40, 280)">
+    <text x="0" y="18" font-size="12" font-weight="bold" fill="#dc2626">复杂问题 → 工单流转</text>
+
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">人工无法解决</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">需要跨部门协作</text>
+    </g>
+    <text x="130" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <g transform="translate(150, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">创建工单</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">关联对话上下文</text>
+    </g>
+    <text x="280" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <g transform="translate(300, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">SLA 处理</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">超时自动升级</text>
+    </g>
+    <text x="430" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <g transform="translate(450, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">用户确认</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#64748b">满意度评价</text>
+    </g>
+    <text x="580" y="58" text-anchor="middle" font-size="16" fill="#94a3b8">→</text>
+
+    <g transform="translate(600, 30)">
+      <rect x="0" y="0" width="120" height="50" rx="8" fill="#10b981" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+      <text x="60" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="white">✅ 工单关闭</text>
+      <text x="60" y="36" text-anchor="middle" font-size="9" fill="#ecfdf5">归档统计</text>
+    </g>
+  </g>
+
+  <!-- Emotional curve -->
+  <g transform="translate(40, 370)">
+    <text x="0" y="0" font-size="12" font-weight="bold" fill="#64748b">用户情绪曲线</text>
+    <polyline points="0,20 100,-10 200,5 300,25 400,40 500,55 600,45 700,60"
+              fill="none" stroke="#4f46e5" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="50" y="30" font-size="9" fill="#64748b">期待</text>
+    <text x="200" y="15" font-size="9" fill="#64748b">满意</text>
+    <text x="350" y="35" font-size="9" fill="#64748b">焦虑</text>
+    <text x="500" y="65" font-size="9" fill="#64748b">解决</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(40, 440)">
+    <rect x="0" y="0" width="12" height="12" rx="3" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1"/>
+    <text x="18" y="11" font-size="10" fill="#64748b">正常流程</text>
+    <rect x="100" y="0" width="12" height="12" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+    <text x="118" y="11" font-size="10" fill="#64748b">转人工流程</text>
+    <rect x="210" y="0" width="12" height="12" rx="3" fill="#fee2e2" stroke="#dc2626" stroke-width="1"/>
+    <text x="228" y="11" font-size="10" fill="#64748b">工单流程</text>
+    <rect x="310" y="0" width="12" height="12" rx="3" fill="#10b981"/>
+    <text x="328" y="11" font-size="10" fill="#64748b">成功终态</text>
+  </g>
+</svg>

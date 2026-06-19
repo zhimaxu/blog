@@ -38,5 +38,15 @@
   "public:assets/images/ai/install/cc-switch-step-3.png": "fcfcfcfefefef9fcfe",
   "public:assets/images/ai/install/cc-switch-step-2.png": "f8f8f9fffffef7fafc",
   "public:assets/images/ai/install/cc-switch-step-1.png": "fbfbfcfefffff9fbfb",
-  "src:assets/images/favicon.png": "fbdae2fbdde5f5dfe8"
+  "src:assets/images/favicon.png": "fbdae2fbdde5f5dfe8",
+  "public:gallery/prd-1-product-prototype/10-archive.png": "eceef0eff3f9eff0f3",
+  "public:gallery/prd-1-product-prototype/09-ai-models.png": "eeeeededf1f5e7eaf1",
+  "public:gallery/prd-1-product-prototype/08-admin-users.png": "edeef0ebeef3eaebed",
+  "public:gallery/prd-1-product-prototype/07-admin-roles.png": "e0e5eae7ebede7ebed",
+  "public:gallery/prd-1-product-prototype/06-admin-config.png": "e8ebeef2f3f6eceef1",
+  "public:gallery/prd-1-product-prototype/05-knowledge-tools.png": "ebedefeff1f3e0e4eb",
+  "public:gallery/prd-1-product-prototype/04-knowledge-docs.png": "e3e9f0e4eaece6e8eb",
+  "public:gallery/prd-1-product-prototype/03-stats-chat.png": "e3e5e8dfe3e8cad8e9",
+  "public:gallery/prd-1-product-prototype/02-agent-sessions.png": "e8eaeae4eaf2dee6f3",
+  "public:gallery/prd-1-product-prototype/01-chat-sessions.png": "e8ebefeceef1e9eaed"
 }

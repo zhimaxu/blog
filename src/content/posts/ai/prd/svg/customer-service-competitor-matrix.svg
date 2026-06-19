@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 460" font-family="'PingFang SC', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f766e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="860" height="460" rx="12" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="860" height="50" rx="12" fill="url(#grad)"/>
+  <text x="430" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="white">智能客服 · 竞品对比矩阵</text>
+
+  <!-- Table header -->
+  <g transform="translate(40, 70)">
+    <rect x="0" y="0" width="780" height="36" rx="6" fill="#f1f5f9"/>
+    <text x="100" y="23" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">维度</text>
+    <text x="280" y="23" text-anchor="middle" font-size="12" font-weight="bold" fill="#0f766e">我们</text>
+    <text x="460" y="23" text-anchor="middle" font-size="12" font-weight="bold" fill="#64748b">竞品 A</text>
+    <text x="640" y="23" text-anchor="middle" font-size="12" font-weight="bold" fill="#64748b">竞品 B</text>
+  </g>
+
+  <!-- Rows -->
+  <g transform="translate(40, 106)">
+    <text x="100" y="20" font-size="11" fill="#334155">AI 多模态能力</text>
+    <text x="280" y="20" font-size="11" fill="#0f766e">✅ 文本+图像+视频+语音</text>
+    <text x="460" y="20" font-size="11" fill="#64748b">⚠️ 文本+图像</text>
+    <text x="640" y="20" font-size="11" fill="#64748b">⚠️ 文本+图像</text>
+  </g>
+  <g transform="translate(40, 138)">
+    <text x="100" y="20" font-size="11" fill="#334155">多租户 SaaS</text>
+    <text x="280" y="20" font-size="11" fill="#0f766e">✅ 4 级套餐 + 灵活隔离</text>
+    <text x="460" y="20" font-size="11" fill="#64748b">❌ 单租户</text>
+    <text x="640" y="20" font-size="11" fill="#64748b">⚠️ 固定套餐</text>
+  </g>
+  <g transform="translate(40, 170)">
+    <text x="100" y="20" font-size="11" fill="#334155">工单系统</text>
+    <text x="280" y="20" font-size="11" fill="#0f766e">✅ 流转 + SLA + 升级</text>
+    <text x="460" y="20" font-size="11" fill="#64748b">⚠️ 基础工单</text>
+    <text x="640" y="20" font-size="11" fill="#64748b">❌ 无</text>
+  </g>
+  <g transform="translate(40, 202)">
+    <text x="100" y="20" font-size="11" fill="#334155">知识库管理</text>
+    <text x="280" y="20" font-size="11" fill="#0f766e">✅ 向量检索 + 文件转换</text>
+    <text x="460" y="20" font-size="11" fill="#64748b">⚠️ 基础 FAQ</text>
+    <text x="640" y="20" font-size="11" fill="#64748b">⚠️ 基础 FAQ</text>
+  </g>
+  <g transform="translate(40, 234)">
+    <text x="100" y="20" font-size="11" fill="#334155">数据分析</text>
+    <text x="280" y="20" font-size="11" fill="#0f766e">✅ 评分 + 效率 + 埋点</text>
+    <text x="460" y="20" font-size="11" fill="#64748b">⚠️ 基础统计</text>
+    <text x="640" y="20" font-size="11" fill="#64748b">❌ 无</text>
+  </g>
+  <g transform="translate(40, 266)">
+    <text x="100" y="20" font-size="11" fill="#334155">多渠道接入</text>
+    <text x="280" y="20" font-size="11" fill="#0f766e">✅ 网站/小程序/App/PC</text>
+    <text x="460" y="20" font-size="11" fill="#64748b">⚠️ 网站/小程序</text>
+    <text x="640" y="20" font-size="11" fill="#64748b">⚠️ 网站</text>
+  </g>
+  <g transform="translate(40, 298)">
+    <text x="100" y="20" font-size="11" fill="#334155">国际化</text>
+    <text x="280" y="20" font-size="11" fill="#0f766e">✅ 中/英/日 + 自动切换</text>
+    <text x="460" y="20" font-size="11" fill="#64748b">❌ 仅中文</text>
+    <text x="640" y="20" font-size="11" fill="#64748b">⚠️ 中英</text>
+  </g>
+  <g transform="translate(40, 330)">
+    <text x="100" y="20" font-size="11" fill="#334155">定价模式</text>
+    <text x="280" y="20" font-size="11" fill="#0f766e">✅ 免费→企业版阶梯定价</text>
+    <text x="460" y="20" font-size="11" fill="#64748b">⚠️ 按坐席计费</text>
+    <text x="640" y="20" font-size="11" fill="#64748b">⚠️ 按对话量</text>
+  </g>
+
+  <!-- Summary -->
+  <g transform="translate(40, 375)">
+    <rect x="0" y="0" width="780" height="40" rx="8" fill="#f0fdf4" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="390" y="18" text-anchor="middle" font-size="11" font-weight="bold" fill="#10b981">差异化优势</text>
+    <text x="390" y="34" text-anchor="middle" font-size="10" fill="#334155">多模态 AI 能力 + 完整工单流转 + 多租户 SaaS + 数据分析闭环</text>
+  </g>
+</svg>

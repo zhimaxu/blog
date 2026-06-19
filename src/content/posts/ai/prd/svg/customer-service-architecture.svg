@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" font-family="'PingFang SC', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f766e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a34a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f43f5e;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="620" rx="12" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="860" height="56" rx="12" fill="url(#blueGrad)"/>
+  <text x="430" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="white">智能客服系统 · 功能架构</text>
+
+  <!-- Channel Layer -->
+  <g transform="translate(60, 75)">
+    <rect x="0" y="0" width="740" height="65" rx="10" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="370" y="22" text-anchor="middle" font-size="13" fill="#4f46e5" font-weight="bold">渠 道 层</text>
+    <g transform="translate(30, 35)">
+      <rect x="0" y="0" width="130" height="22" rx="6" fill="white" stroke="#4f46e5" stroke-width="1"/>
+      <text x="65" y="15" text-anchor="middle" font-size="11" fill="#334155">网站 JS 嵌入</text>
+    </g>
+    <g transform="translate(185, 35)">
+      <rect x="0" y="0" width="130" height="22" rx="6" fill="white" stroke="#4f46e5" stroke-width="1"/>
+      <text x="65" y="15" text-anchor="middle" font-size="11" fill="#334155">微信小程序</text>
+    </g>
+    <g transform="translate(340, 35)">
+      <rect x="0" y="0" width="130" height="22" rx="6" fill="white" stroke="#4f46e5" stroke-width="1"/>
+      <text x="65" y="15" text-anchor="middle" font-size="11" fill="#334155">App / H5</text>
+    </g>
+    <g transform="translate(495, 35)">
+      <rect x="0" y="0" width="130" height="22" rx="6" fill="white" stroke="#4f46e5" stroke-width="1"/>
+      <text x="65" y="15" text-anchor="middle" font-size="11" fill="#334155">PC 客户端</text>
+    </g>
+  </g>
+
+  <!-- Arrow down -->
+  <line x1="430" y1="140" x2="430" y2="170" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/></marker></defs>
+
+  <!-- Frontend Layer -->
+  <g transform="translate(60, 175)">
+    <rect x="0" y="0" width="740" height="65" rx="10" fill="#ccfbf1" stroke="#0f766e" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="370" y="22" text-anchor="middle" font-size="13" fill="#0f766e" font-weight="bold">前 端 层</text>
+    <g transform="translate(100, 35)">
+      <rect x="0" y="0" width="540" height="22" rx="6" fill="white" stroke="#0f766e" stroke-width="1"/>
+      <text x="270" y="15" text-anchor="middle" font-size="11" fill="#334155">Vue 3 SPA — 聊天界面 / 客服工作台 / 数据看板 / 后台管理</text>
+    </g>
+  </g>
+
+  <!-- Arrow down -->
+  <line x1="430" y1="240" x2="430" y2="270" stroke="#64748b" stroke-width="2"/>
+
+  <!-- Backend Layer -->
+  <g transform="translate(60, 275)">
+    <rect x="0" y="0" width="740" height="65" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="370" y="22" text-anchor="middle" font-size="13" fill="#d97706" font-weight="bold">后 端 层</text>
+    <g transform="translate(80, 35)">
+      <rect x="0" y="0" width="580" height="22" rx="6" fill="white" stroke="#d97706" stroke-width="1"/>
+      <text x="290" y="15" text-anchor="middle" font-size="11" fill="#334155">FastAPI — REST API / WebSocket / 会话管理 / 文件转换 / 异步任务</text>
+    </g>
+  </g>
+
+  <!-- Arrows down -->
+  <line x1="200" y1="340" x2="200" y2="370" stroke="#64748b" stroke-width="2"/>
+  <line x1="430" y1="340" x2="430" y2="370" stroke="#64748b" stroke-width="2"/>
+  <line x1="660" y1="340" x2="660" y2="370" stroke="#64748b" stroke-width="2"/>
+
+  <!-- AI Service Layer -->
+  <g transform="translate(60, 375)">
+    <rect x="0" y="0" width="740" height="55" rx="10" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="370" y="22" text-anchor="middle" font-size="13" fill="#ec4899" font-weight="bold">AI 服 务</text>
+    <g transform="translate(40, 33)">
+      <rect x="0" y="0" width="170" height="14" rx="4" fill="white" stroke="#ec4899" stroke-width="0.8"/>
+      <text x="85" y="11" text-anchor="middle" font-size="10" fill="#334155">文本 / 图像 / 视频 / 语音</text>
+    </g>
+    <g transform="translate(230, 33)">
+      <rect x="0" y="0" width="170" height="14" rx="4" fill="white" stroke="#ec4899" stroke-width="0.8"/>
+      <text x="85" y="11" text-anchor="middle" font-size="10" fill="#334155">Agnes AI API（可动态配置）</text>
+    </g>
+    <g transform="translate(420, 33)">
+      <rect x="0" y="0" width="170" height="14" rx="4" fill="white" stroke="#ec4899" stroke-width="0.8"/>
+      <text x="85" y="11" text-anchor="middle" font-size="10" fill="#334155">ASR / TTS / OCR</text>
+    </g>
+  </g>
+
+  <!-- Data Layer -->
+  <g transform="translate(60, 450)">
+    <rect x="0" y="0" width="740" height="145" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="370" y="22" text-anchor="middle" font-size="13" fill="#7c3aed" font-weight="bold">数 据 层</text>
+
+    <!-- MySQL -->
+    <g transform="translate(40, 38)">
+      <rect x="0" y="0" width="180" height="85" rx="8" fill="white" stroke="#3b82f6" stroke-width="1.5"/>
+      <text x="90" y="22" text-anchor="middle" font-size="12" fill="#3b82f6" font-weight="bold">MySQL</text>
+      <text x="90" y="42" text-anchor="middle" font-size="9" fill="#64748b">租户 / 用户 / 会话</text>
+      <text x="90" y="56" text-anchor="middle" font-size="9" fill="#64748b">对话历史 / 知识库</text>
+      <text x="90" y="70" text-anchor="middle" font-size="9" fill="#64748b">统计数据 / 配置</text>
+    </g>
+
+    <!-- Qdrant -->
+    <g transform="translate(260, 38)">
+      <rect x="0" y="0" width="180" height="85" rx="8" fill="white" stroke="#10b981" stroke-width="1.5"/>
+      <text x="90" y="22" text-anchor="middle" font-size="12" fill="#10b981" font-weight="bold">Qdrant</text>
+      <text x="90" y="42" text-anchor="middle" font-size="9" fill="#64748b">知识库文档</text>
+      <text x="90" y="56" text-anchor="middle" font-size="9" fill="#64748b">语义检索</text>
+      <text x="90" y="70" text-anchor="middle" font-size="9" fill="#64748b">向量化存储</text>
+    </g>
+
+    <!-- Redis -->
+    <g transform="translate(480, 38)">
+      <rect x="0" y="0" width="180" height="85" rx="8" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
+      <text x="90" y="22" text-anchor="middle" font-size="12" fill="#f59e0b" font-weight="bold">Redis</text>
+      <text x="90" y="42" text-anchor="middle" font-size="9" fill="#64748b">热点数据缓存</text>
+      <text x="90" y="56" text-anchor="middle" font-size="9" fill="#64748b">会话状态</text>
+      <text x="90" y="70" text-anchor="middle" font-size="9" fill="#64748b">限流计数</text>
+    </g>
+  </g>
+
+  <!-- Async Layer -->
+  <g transform="translate(60, 610)">
+    <rect x="0" y="0" width="740" height="35" rx="8" fill="#fff1f2" stroke="#f43f5e" stroke-width="1.5" opacity="0"/>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(60, 510)">
+    <rect x="0" y="0" width="740" height="28" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="15" y="18" font-size="10" fill="#64748b">图例：</text>
+    <rect x="55" y="8" width="12" height="12" rx="3" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1"/>
+    <text x="72" y="18" font-size="10" fill="#64748b">渠道层</text>
+    <rect x="130" y="8" width="12" height="12" rx="3" fill="#ccfbf1" stroke="#0f766e" stroke-width="1"/>
+    <text x="147" y="18" font-size="10" fill="#64748b">前端层</text>
+    <rect x="200" y="8" width="12" height="12" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+    <text x="217" y="18" font-size="10" fill="#64748b">后端层</text>
+    <rect x="280" y="8" width="12" height="12" rx="3" fill="#fce7f3" stroke="#ec4899" stroke-width="1"/>
+    <text x="297" y="18" font-size="10" fill="#64748b">AI 服务</text>
+    <rect x="360" y="8" width="12" height="12" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="1"/>
+    <text x="377" y="18" font-size="10" fill="#64748b">数据层</text>
+  </g>
+</svg>
