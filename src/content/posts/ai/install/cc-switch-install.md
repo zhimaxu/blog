@@ -24,8 +24,8 @@ description: 尝试安装CC Switch 链接本地或云端大模型
 
 1. 打开CC Switch右上角添加供应商
 2. 下滑自定义供应商
-   ![step 1](/assets/images/ai/install/cc-switch-step-1.png)
-   ![step 2](/assets/images/ai/install/cc-switch-step-2.png)
+   ![step 1](./images/cc-switch-step-1.png)
+   ![step 2](./images/cc-switch-step-2.png)
 
 3. 模型可以获取后再设置无需手动输入
 
@@ -41,15 +41,15 @@ description: 尝试安装CC Switch 链接本地或云端大模型
 6. 输入一个名称（如"Claude Code"），然后点击"创建"
 7. 复制生成的API Key（以sk-开头），妥善保存，关闭窗口后可在操作处直接复制
 8. 打开CC Switch右上角添加供应商
-   ![step 3](/assets/images/ai/install/cc-switch-step-3.png)
-   ![step 4](/assets/images/ai/install/cc-switch-step-4.png)
+   ![step 3](./images/cc-switch-step-3.png)
+   ![step 4](./images/cc-switch-step-4.png)
 
 9. 模型可以获取后再设置无需手动输入
 
 ### 3.3 CC Switch 启动路由
 
 1. 左上角设置
- ![step 5](/assets/images/ai/install/cc-switch-step-5.png)
+ ![step 5](./images/cc-switch-step-5.png)
 
 #### 3.3.1 验证配置是否成功
 
