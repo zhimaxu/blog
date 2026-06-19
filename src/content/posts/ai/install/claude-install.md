@@ -1,10 +1,12 @@
 ---
 title: 安装Claude Code
 published: 2026-06-12
+updated: 2026-06-19
 tags: [Markdown, AI, Claude Code]
 category: Install
 draft: false
 description: 尝试安装Claude Code 进行vibe coding
+version: 1.0.1
 ---
 
 ## 前置要求
@@ -87,13 +89,12 @@ description: 尝试安装Claude Code 进行vibe coding
     ```ps
     npm install -g @playwright/cli@latest
     playwright install chromium
+    playwright-cli install --skills
     ```
     > [!CAUTION] 如遇``playwright install`` 报错,使用``playwright-cli install``即可
 
-    > [!TIP] 这里是回到Claude
-    ```ps
-    playwright-cli install --skills
-    ```
+    > [!TIP] 安装好后reload-skills
+
     * 使用方式："截取百度首页的截图并保存为baidu.png",这里保存图片可能会报错要多试几次，或者单纯打开浏览器并指定网页
     > [!CAUTION] 会遇到无返回值的问题，详见[第8步](#step-8)
 
@@ -114,9 +115,10 @@ description: 尝试安装Claude Code 进行vibe coding
         ```ps
         /skills
         ```
-    2. skill-creator、browse、playwright-cli和superpowers都在列表中(如果没找到但是可以打开浏览器,可以搜索那就不管)
-    3. 输入以下命令可以查看所有可用插件命令
-            ```ps
+    2. superpowers、skill-creator 、browse 是通过插件提供skill
+    3. playwright-cli 是直接安装的技能，特殊情况下直接压缩包安装也是属于直接安装的技能（包括等下的agnes ai）
+    4. 输入以下命令可以查看所有可用插件命令
+        ```ps
         /help
         ```
 7. 安装常用语言LSP
