@@ -615,7 +615,7 @@ version: 3.0.0
 
 ### 9.1 业务数据表
 
-#### 6.1.1 租户与用户
+#### 9.1.1 租户与用户
 
 | 表名 | 字段 | 说明 |
 |:--|:--|:--|
@@ -623,7 +623,7 @@ version: 3.0.0
 | user | id, tenant_id, nickname, avatar, gender, birthday, region, membership_level, points, created_at, updated_at | 消费者用户表 |
 | admin_user | id, tenant_id, username, password_hash, email, avatar, status, created_at, updated_at | 管理员账号表 |
 
-#### 6.1.2 RBAC 权限
+#### 9.1.2 RBAC 权限
 
 | 表名 | 字段 | 说明 |
 |:--|:--|:--|
@@ -633,7 +633,7 @@ version: 3.0.0
 | user_role | user_id, role_id | 管理员-角色关联表 |
 | menu | id, tenant_id, parent_id, name, path, component, icon, sort_order, visible, type, created_at | 菜单表 |
 
-#### 6.1.3 会话与消息
+#### 9.1.3 会话与消息
 
 | 表名 | 字段 | 说明 |
 |:--|:--|:--|
@@ -641,28 +641,28 @@ version: 3.0.0
 | message | id, session_id, sender_type, content, content_type, created_at | 消息表 |
 | satisfaction | id, session_id, score, comment, created_at | 满意度评价表 |
 
-#### 6.1.4 工单系统
+#### 9.1.4 工单系统
 
 | 表名 | 字段 | 说明 |
 |:--|:--|:--|
 | ticket | id, tenant_id, session_id, creator_type, type, priority, status, assigned_to, sla_deadline, created_at, updated_at | 工单表 |
 | ticket_comment | id, ticket_id, sender_type, content, created_at | 工单评论表 |
 
-#### 6.1.5 知识库
+#### 9.1.5 知识库
 
 | 表名 | 字段 | 说明 |
 |:--|:--|:--|
 | knowledge_entry | id, tenant_id, title, content, category, tags, vector_id, created_at, updated_at | 知识库条目表 |
 | file_conversion | id, tenant_id, original_file, converted_md, status, created_by, created_at | 文件转换记录表 |
 
-#### 6.1.6 系统与配置
+#### 9.1.6 系统与配置
 
 | 表名 | 字段 | 说明 |
 |:--|:--|:--|
 | system_config | id, tenant_id, key, value, description, updated_at | 系统配置表 |
 | translation | id, tenant_id, language, key, value, updated_at | 翻译词条表 |
 
-#### 6.1.7 统计与分析
+#### 9.1.7 统计与分析
 
 | 表名 | 字段 | 说明 |
 |:--|:--|:--|
@@ -722,7 +722,7 @@ version: 3.0.0
 
 ---
 
-## 九、成功指标
+## 十、成功指标
 
 ### 10.1 北极星指标
 
@@ -752,7 +752,7 @@ version: 3.0.0
 
 ## 十一、执行计划
 
-### 9.1 范围边界
+### 11.1 范围边界
 
 **In Scope（本期包含）**：
 - AI 自动问答 + 知识库管理
@@ -767,7 +767,7 @@ version: 3.0.0
 - 视频通话 — 技术复杂度高，非核心路径
 - 自研大模型 — 使用 Agnes AI API
 
-### 9.2 里程碑
+### 11.2 里程碑
 
 | 阶段 | 可验证交付物 | 时间节点 | 负责人 |
 |------|------------|---------|--------|
@@ -778,7 +778,7 @@ version: 3.0.0
 | 灰度上线 | 5% 用户 + 监控正常 | [日期] | PM + Dev |
 | 全量上线 | 指标验证通过 | [日期] | PM |
 
-### 9.3 资源需求
+### 11.3 资源需求
 
 | 角色 | 工作量（人天） | 主要职责 |
 |------|-------------|---------|
@@ -804,7 +804,7 @@ version: 3.0.0
 
 ## 十三、干系人与审批
 
-### 11.1 RACI 矩阵
+### 13.1 RACI 矩阵
 
 | 事项 | PM | 工程 | 设计 | 运营 | 法务 | 管理层 |
 |------|----|----|------|------|------|------|
@@ -816,7 +816,7 @@ version: 3.0.0
 
 *R=负责执行 A=最终拍板 C=需要咨询 I=需要知会*
 
-### 11.2 审批记录
+### 13.2 审批记录
 
 | 干系人 | 角色 | 意见摘要 | 签字日期 |
 |--------|------|---------|---------|
@@ -826,7 +826,7 @@ version: 3.0.0
 
 ## 十四、附录
 
-### 12.1 关键假设清单
+### 14.1 关键假设清单
 
 | 编号 | 假设内容 | 验证方式 | 状态 |
 |------|---------|---------|------|
@@ -834,7 +834,7 @@ version: 3.0.0
 | A2 | Agnes AI API 能满足生产环境 SLA | 压力测试 | 待确认 |
 | A3 | 知识库检索准确率 > 80% | 基准测试 | 待确认 |
 
-### 12.2 术语表
+### 14.2 术语表
 
 | 术语 | 定义 |
 |------|------|
@@ -844,7 +844,7 @@ version: 3.0.0
 | Qdrant | 开源向量数据库 |
 | tenant_id | 租户标识，用于多租户数据隔离 |
 
-### 12.3 参考文档
+### 14.3 参考文档
 
 - [ ] 用户研究报告：[链接]
 - [ ] 竞品分析报告：[链接]
@@ -852,7 +852,7 @@ version: 3.0.0
 - [ ] 数据分析报告：[链接]
 - [ ] 法务合规意见：[链接]
 
-### 12.4 修订历史
+### 14.4 修订历史
 
 | 版本 | 日期 | 修改内容 | 修改人 |
 |------|------|---------|--------|
